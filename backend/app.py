@@ -90,3 +90,14 @@ async def proceedings():
         return await client.list_proceedings()
     except Exception as e:
         raise HTTPException(status_code=502, detail=f"Błąd pobierania posiedzeń: {e}")
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI(title="Sejm Votes Backend", version="0.2.0")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # Vite dev server
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
