@@ -1,21 +1,19 @@
 {
   "meta": {
-    "type": "ELECTRONIC",
-    "title": "Mock głosowanie ELECTRONIC – zwiększenie liczby wicemarszałków",
+    "type": "ON_LIST",
+    "title": "Wybór Marszałka Sejmu RP – głosowanie nr 1, 1. posiedzenie Sejmu X kadencji",
     "term": 10,
     "sitting": 1,
-    "votingNumber": 1
+    "votingNumber": 1,
+    "options": [
+      { "id": "cand1", "label": "Szymon Hołownia" },
+      { "id": "cand2", "label": "Elżbieta Witek" }
+    ]
   },
   "votes": [
-    { "MP": 1, "club": "KO", "vote": "YES" },
-    { "MP": 2, "club": "PiS", "vote": "NO" },
-    { "MP": 3, "club": "Lewica", "vote": "ABSTAIN" },
-    { "MP": 4, "club": "Konfederacja", "vote": "YES" }
-  ],
-  "stats": {
-    "yes": 2,
-    "no": 1,
-    "abstain": 1,
-    "notParticipating": 0
-  }
+    { "MP": 1, "club": "KO",          "vote": "cand1" },
+    { "MP": 2, "club": "PiS",         "vote": "cand2" },
+    { "MP": 3, "club": "Lewica",      "vote": "cand1" },
+    { "MP": 4, "club": "Konfederacja","vote": "cand2" }
+  ]
 }

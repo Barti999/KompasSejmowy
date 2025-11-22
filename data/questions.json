@@ -1,16 +1,23 @@
 [
   {
     "id": "q1",
-    "type": "ELECTRONIC",
-    "title": "Czy poparłbyś ustawę o zwiększeniu liczby wicemarszałków Sejmu?",
-    "description": "To pytanie odpowiada klasycznemu głosowaniu typu ZA/PRZECIW/WSTRZYMANIE. Wybierz opcję, która najlepiej oddaje Twoją decyzję.",
+    "type": "ON_LIST",
+    "title": "Kogo poparłbyś na stanowisko Marszałka Sejmu RP?",
+    "description": "To pytanie odzwierciedla rzeczywiste głosowanie nr 1 na 1. posiedzeniu X kadencji Sejmu (13.11.2023), w którym posłowie wybierali Marszałka Sejmu między Szymonem Hołownią a Elżbietą Witek.",
+    "term": 10,
+    "sitting": 1,
+    "votingNumber": 1,
+    "options": [
+      { "id": "cand1", "label": "Szymon Hołownia" },
+      { "id": "cand2", "label": "Elżbieta Witek" }
+    ],
     "weight": 1
   },
   {
     "id": "q2",
     "type": "ON_LIST",
-    "title": "Kogo poparłbyś na stanowisko Marszałka Sejmu?",
-    "description": "Głosowanie typu ON_LIST — wybór jednego konkretnego kandydata spośród kilku nazwisk.",
+    "title": "Kogo wolałbyś jako przewodniczącego komisji śledczej? (przykładowe pytanie)",
+    "description": "To jest przykładowe pytanie typu ON_LIST, żeby przetestować więcej niż jedno głosowanie. W prawdziwej wersji tutaj podepniemy konkretne głosowanie z Sejmu.",
     "options": [
       { "id": "cand1", "label": "Jan Kowalski" },
       { "id": "cand2", "label": "Anna Nowak" },
