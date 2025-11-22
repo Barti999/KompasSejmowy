@@ -1,0 +1,22 @@
+[
+  {
+    "id": "KO",
+    "name": "Koalicja Obywatelska",
+    "membersCount": 1
+  },
+  {
+    "id": "PiS",
+    "name": "Prawo i Sprawiedliwość",
+    "membersCount": 1
+  },
+  {
+    "id": "Lewica",
+    "name": "Lewica",
+    "membersCount": 1
+  },
+  {
+    "id": "Konfederacja",
+    "name": "Konfederacja",
+    "membersCount": 1
+  }
+]

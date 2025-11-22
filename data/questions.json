@@ -1,0 +1,21 @@
+[
+  {
+    "id": "q1",
+    "type": "ELECTRONIC",
+    "title": "Czy poparłbyś ustawę o zwiększeniu liczby wicemarszałków Sejmu?",
+    "description": "To pytanie odpowiada klasycznemu głosowaniu typu ZA/PRZECIW/WSTRZYMANIE. Wybierz opcję, która najlepiej oddaje Twoją decyzję.",
+    "weight": 1
+  },
+  {
+    "id": "q2",
+    "type": "ON_LIST",
+    "title": "Kogo poparłbyś na stanowisko Marszałka Sejmu?",
+    "description": "Głosowanie typu ON_LIST — wybór jednego konkretnego kandydata spośród kilku nazwisk.",
+    "options": [
+      { "id": "cand1", "label": "Jan Kowalski" },
+      { "id": "cand2", "label": "Anna Nowak" },
+      { "id": "cand3", "label": "Marek Zieliński" }
+    ],
+    "weight": 1
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "type": "ELECTRONIC",
+    "title": "Mock głosowanie ELECTRONIC – zwiększenie liczby wicemarszałków",
+    "term": 10,
+    "sitting": 1,
+    "votingNumber": 1
+  },
+  "votes": [
+    { "MP": 1, "club": "KO", "vote": "YES" },
+    { "MP": 2, "club": "PiS", "vote": "NO" },
+    { "MP": 3, "club": "Lewica", "vote": "ABSTAIN" },
+    { "MP": 4, "club": "Konfederacja", "vote": "YES" }
+  ],
+  "stats": {
+    "yes": 2,
+    "no": 1,
+    "abstain": 1,
+    "notParticipating": 0
+  }
+}

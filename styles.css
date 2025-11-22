@@ -1,0 +1,119 @@
+/* Podstawowy reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ogólne ustawienia */
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* Nagłówek */
+header {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #555;
+    font-size: 1rem;
+}
+
+/* Główna sekcja aplikacji */
+main#app {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+    min-height: 150px;
+}
+
+/* Sekcja wyników */
+#results {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+}
+
+/* Przycisk */
+button {
+    background: #0070f3;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+button:hover {
+    background: #005ad1;
+}
+
+/* Pytania */
+.question-block {
+    margin-bottom: 30px;
+}
+
+.question-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.options {
+    margin-left: 10px;
+}
+
+.options label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+/* Wyniki */
+.result-item {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+.result-item:last-child {
+    border-bottom: none;
+}
+
+/* Stopka */
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
+
+/* Responsywność */
+@media (max-width: 600px) {
+    body {
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    main#app, #results {
+        padding: 15px;
+    }
+}

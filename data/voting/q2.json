@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "type": "ON_LIST",
+    "title": "Mock głosowanie ON_LIST – wybór Marszałka Sejmu",
+    "term": 10,
+    "sitting": 1,
+    "votingNumber": 2,
+    "options": [
+      { "id": "cand1", "label": "Jan Kowalski" },
+      { "id": "cand2", "label": "Anna Nowak" },
+      { "id": "cand3", "label": "Marek Zieliński" }
+    ]
+  },
+  "votes": [
+    { "MP": 1, "club": "KO", "vote": "cand2" },
+    { "MP": 2, "club": "PiS", "vote": "cand1" },
+    { "MP": 3, "club": "Lewica", "vote": "cand2" },
+    { "MP": 4, "club": "Konfederacja", "vote": "cand3" }
+  ]
+}
